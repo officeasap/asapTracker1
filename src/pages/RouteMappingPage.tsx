@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import AutocompleteSearch from '@/components/AutocompleteSearch';
 import { SuggestResult } from '@/services/shared/types';
-import { RouteMap } from '@/components/RouteMap';
+import RouteMap  from '@/components/RouteMap';
 
 const RouteMappingPage = () => {
   const [departure, setDeparture] = useState<SuggestResult | null>(null);
